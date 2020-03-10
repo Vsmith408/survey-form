@@ -1,0 +1,105 @@
+/* colors - #ddfcff */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #bae2e5, #2f7277);
+  text-align: center;
+  padding: 16px;
+  font-family: 'Raleway', sans-serif;
+}
+
+form {
+  display: block;
+  margin: auto auto;
+  background-color: #ffffff;
+  width: 650px;
+  max-width: 98%;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#title {
+  color: #2f7277;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 8px;
+}
+
+#description {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  margin: 0 0 16px;
+}
+
+.text-input,
+select {
+  background-color: #ececec;
+  width: 400px;
+  border: none;
+  border-radius: 18px;
+  height: 36px;
+  padding: 0 16px;
+  font-size: 14px;
+}
+
+label {
+  display: block;
+  padding-top: 8px;
+  margin: 0;
+}
+
+.text-area {
+  background-color: #ececec;
+  width: 400px;
+  border: none;
+  border-radius: 18px;
+  padding: 12px;
+  font-size: 14px;
+}
+
+#submit {
+  padding: 6px 30px 6px 30px;
+  border-radius: 12px;
+  background-color: #2f7277;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+#submit:hover {
+  opacity: 0.7;
+}
+
+.form-input {
+  margin: 16px 0;
+}
+
+label {
+  font-size: 12px;
+}
+
+.form-input > label:first-of-type span {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.radio-wrap,
+.checkbox-wrap {
+  width: 400px;
+  margin: auto;
+  text-align: left;
+}
+
+.radio-wrap span,
+.checkbox-wrap span {
+  padding-left: 8px;
+}
